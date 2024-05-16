@@ -35,12 +35,11 @@ This code package is licensed under the MIT license. If you in any way use this 
 ```
 @ARTICLE{10508095,
   author={Zhu, Yiyang and Shi, Enyu and Liu, Ziheng and Zhang, Jiayi and Ai, Bo},
-  journal={IEEE Transactions on Vehicular Technology}, 
+  journal={IEEE Trans. Veh. Technol.},
   title={Multi-agent Reinforcement Learning-based Joint Precoding and Phase Shift Optimization for RIS-aided Cell-Free Massive MIMO Systems}, 
   year={2024},
   volume={},
   number={},
   pages={1-6},
-  keywords={Precoding;Optimization;Fuzzy logic;Reconfigurable intelligent surfaces;Symbols;Wireless communication;Training;Reconfigurable intelligent surface;cell-free massive MIMO;precoding;spectral efficiency;multi-agent reinforcement learning},
   doi={10.1109/TVT.2024.3392883}}
 ```
