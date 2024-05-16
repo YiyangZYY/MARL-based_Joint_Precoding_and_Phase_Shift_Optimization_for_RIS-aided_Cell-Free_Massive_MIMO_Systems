@@ -37,7 +37,7 @@ This code package is licensed under the MIT license. If you in any way use this 
   author={Zhu, Yiyang and Shi, Enyu and Liu, Ziheng and Zhang, Jiayi and Ai, Bo},
   journal={IEEE Trans. Veh. Technol.},
   title={Multi-agent Reinforcement Learning-based Joint Precoding and Phase Shift Optimization for RIS-aided Cell-Free Massive MIMO Systems}, 
-  year={2024},
+  year={to appear, 2024},
   volume={},
   number={},
   pages={1-6},
