@@ -8,7 +8,7 @@ import torch
 
 import utils
 from algorithms import FL_MADDPG
-from env import env_CF_MIMO_noGroup
+from env import env_CF_MIMO
 
 
 def whiten(State, L):
@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     # Training-specific parameters
     parser.add_argument("--policy", default="FL_MADDPG", help='Algorithm (default: FL_MADDPG)')
-    parser.add_argument("--env", default="CF_MIMO_noGroup", help='OpenAI Gym environment name')
+    parser.add_argument("--env", default="CF_MIMO", help='OpenAI Gym environment name')
     parser.add_argument("--seed", default=47, type=int, help='Seed number for PyTorch and NumPy (default: 47)')
     parser.add_argument("--gpu", default="0", type=int, help='GPU ordinal for multi-GPU computers (default: 0)')
     parser.add_argument("--start_time_steps", default=0, type=int, metavar='N',
@@ -81,7 +81,7 @@ if __name__ == "__main__":
     if args.save_model and not os.path.exists("./Models"):
         os.makedirs("./Models")
 
-    env = env_CF_MIMO_noGroup.CF_MIMO_noGroup(args.num_APs, args.num_antennas, args.num_RIS_elements, args.num_users, args.area_size,
+    env = env_CF_MIMO.CF_MIMO_noGroup(args.num_APs, args.num_antennas, args.num_RIS_elements, args.num_users, args.area_size,
                                     args.awgn_var, args.power_limit)
 
     # Set seeds
